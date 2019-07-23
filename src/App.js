@@ -10,9 +10,9 @@ const App = () => (
 
     <Route path="/" exact component={Home} />
 
-    <Route path="/" exact component={About} />
+    <Route path="/about/" component={About} />
 
-    <Route path="/" exact component={Contact} />
+    <Route path="/contact/" component={Contact} />
 
 
   </div>
